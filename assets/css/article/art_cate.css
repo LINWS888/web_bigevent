@@ -1,0 +1,24 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+
+/* 标题区域布局 */
+.layui-card-header {
+    display: flex;
+    /* 分布在两边 */
+    justify-content: space-between;
+    /* 侧轴方向居中 */
+    align-items: center;
+}
+
+#form-add,
+#form-edit {
+    padding-top: 20px;
+    padding-right: 30px;
+}
